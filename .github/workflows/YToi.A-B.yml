@@ -28,5 +28,5 @@ jobs:
           node YToo.A-2.js
         env:
           loadresourcebody: ${{ secrets.loadresourcebody }}
-           //loadresourcekey: ${{ secrets.loadresourcekey }}
+     
           sploadresourcebody: ${{ secrets.sploadresourcebody }}
