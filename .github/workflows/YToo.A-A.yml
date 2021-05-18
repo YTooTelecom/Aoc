@@ -1,4 +1,4 @@
-name: YToo_Auto
+不name: YToo_Auto
 
 on:
   workflow_dispatch:
@@ -30,3 +30,25 @@ jobs:
           loadresourcebody: ${{ secrets.loadresourcebody }}
            loadresourcekey: ${{ secrets.loadresourcekey }}
           sploadresourcebody: ${{ secrets.sploadresourcebody }}
+sploadresourcekey: ${{ secrets.sploadresourcekey }}
+           withdrawbody: ${{ secrets.withdrawbody }}
+          bubblebody: ${{ secrets.bubblebody }}
+receivebody: ${{ secrets.receivebody }}
+           signinactionbody: ${{ secrets.signinactionbody }}
+          readlotterybody: ${{ secrets.readlotterybody }}
+videolotterybody: ${{ secrets.videolotterybody }}
+           luckylotterybody: ${{ secrets.luckylotterybody }}
+          luckyredurl: ${{ secrets.luckyredurl }}
+luckyredbody: ${{ secrets.luckyredbody }}
+           sharebody: ${{ secrets.sharebody }}
+          booktaskurl: ${{ secrets.booktaskurl }}
+booktaskbody: ${{ secrets.booktaskbody }}
+           spsigninactionbody: ${{ secrets.spsigninactionbody }}
+          spreadcoinurl: ${{ secrets.spreadcoinurl }}
+spreadcoinbody: ${{ secrets.spreadcoinbody }}
+           sp1videocoinbody: ${{ secrets.sp1videocoinbody }}
+          sp2videocoinbody: ${{ secrets.sp2videocoinbody }}
+spsharebody: ${{ secrets.spsharebody }}
+           lotteryinfourl: ${{ secrets.lotteryinfourl }}
+          videoinfourl: ${{ secrets.videoinfourl }}
+          spvideoinfourl: ${{ secrets.spvideoinfourl }}
