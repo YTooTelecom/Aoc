@@ -28,27 +28,27 @@ jobs:
           node YToo.A-2.js
         env:
           loadresourcebody: ${{ secrets.loadresourcebody }}
-           loadresourcekey: ${{ secrets.loadresourcekey }}
+          loadresourcekey: ${{ secrets.loadresourcekey }}
           sploadresourcebody: ${{ secrets.sploadresourcebody }}
-sploadresourcekey: ${{ secrets.sploadresourcekey }}
-           withdrawbody: ${{ secrets.withdrawbody }}
+          sploadresourcekey: ${{ secrets.sploadresourcekey }}
+          withdrawbody: ${{ secrets.withdrawbody }}
           bubblebody: ${{ secrets.bubblebody }}
-receivebody: ${{ secrets.receivebody }}
-           signinactionbody: ${{ secrets.signinactionbody }}
+          receivebody: ${{ secrets.receivebody }}
+          signinactionbody: ${{ secrets.signinactionbody }}
           readlotterybody: ${{ secrets.readlotterybody }}
-videolotterybody: ${{ secrets.videolotterybody }}
-           luckylotterybody: ${{ secrets.luckylotterybody }}
+          videolotterybody: ${{ secrets.videolotterybody }}
+          luckylotterybody: ${{ secrets.luckylotterybody }}
           luckyredurl: ${{ secrets.luckyredurl }}
-luckyredbody: ${{ secrets.luckyredbody }}
-           sharebody: ${{ secrets.sharebody }}
+          luckyredbody: ${{ secrets.luckyredbody }}
+          sharebody: ${{ secrets.sharebody }}
           booktaskurl: ${{ secrets.booktaskurl }}
-booktaskbody: ${{ secrets.booktaskbody }}
-           spsigninactionbody: ${{ secrets.spsigninactionbody }}
+          booktaskbody: ${{ secrets.booktaskbody }}
+          spsigninactionbody: ${{ secrets.spsigninactionbody }}
           spreadcoinurl: ${{ secrets.spreadcoinurl }}
-spreadcoinbody: ${{ secrets.spreadcoinbody }}
-           sp1videocoinbody: ${{ secrets.sp1videocoinbody }}
+          spreadcoinbody: ${{ secrets.spreadcoinbody }}
+          sp1videocoinbody: ${{ secrets.sp1videocoinbody }}
           sp2videocoinbody: ${{ secrets.sp2videocoinbody }}
-spsharebody: ${{ secrets.spsharebody }}
-           lotteryinfourl: ${{ secrets.lotteryinfourl }}
+          spsharebody: ${{ secrets.spsharebody }}
+          lotteryinfourl: ${{ secrets.lotteryinfourl }}
           videoinfourl: ${{ secrets.videoinfourl }}
           spvideoinfourl: ${{ secrets.spvideoinfourl }}
