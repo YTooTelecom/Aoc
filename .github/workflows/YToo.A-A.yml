@@ -27,6 +27,6 @@ jobs:
           cd ~/Aoc   
           node YToo.A-2.js
         env:
-          ENCRYPT_KEY: ${{ secrets.ENCRYPT_KEY }}
- 
-
+          loadresourcebody: ${{ secrets.loadresourcebody }}
+           loadresourcekey: ${{ secrets.loadresourcekey }}
+          sploadresourcebody: ${{ secrets.sploadresourcebody }}
