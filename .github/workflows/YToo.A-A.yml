@@ -1,4 +1,4 @@
-不name: YToo_Auto
+name: YToo_Auto
 
 on:
   workflow_dispatch:
