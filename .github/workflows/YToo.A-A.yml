@@ -18,7 +18,7 @@ jobs:
           node-version: 14.x
       - name: npm install
         run: |
-          cd ~/YoTo
+          cd ~/YToo
           npm install
           npm install cron
           npm install request
